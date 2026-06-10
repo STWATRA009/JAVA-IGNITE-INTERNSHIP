@@ -4,7 +4,6 @@ public class TOKEN_MANAGEMENT_SYSTEM {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//Generating queue named patientQueue
 		Queue<String> patientQueue = new LinkedList<>();
 		//Adding patients in queue using offer()
 		patientQueue.offer("HOMELANDER");
@@ -20,13 +19,9 @@ public class TOKEN_MANAGEMENT_SYSTEM {
 			System.out.println(i+"."+name);
 			i++;
 		}
-		
-		//Peeking the first patient and then adding it to servedPatient
 		System.out.println("Serving the first patient: "+patientQueue.peek());
 		String servedPatient = patientQueue.poll();
 		System.out.println("Served patients: "+servedPatient);
-		
-		//Remaining patients in the patientQueue
 		System.out.println("Remaining patients in queue:");
 		i=1;
 		for(String name:patientQueue)
