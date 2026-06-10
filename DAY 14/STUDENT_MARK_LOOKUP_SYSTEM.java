@@ -3,10 +3,8 @@ import java.util.HashSet;
 public class STUDENT_MARK_LOOKUP_SYSTEM {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		//Generating hashset named participants
+		// TODO Auto-generated method stub		
 		HashSet<String> participants = new HashSet<>();
-		//adding participants in it
 		participants.add("STWATRA");
 		participants.add("SUBHENDU");
 		participants.add("BALDEV");
@@ -21,10 +19,7 @@ public class STUDENT_MARK_LOOKUP_SYSTEM {
 		participants.add("SREETI");
 		participants.add("ARPITA");
 		
-		//Displaying all the registered participants
 		System.out.println("Registered participants: "+ participants);
-		
-		//Displaying total no. of participants registered
 		System.out.println("Total no. of registered participants: "+participants.size());
 		
 		}
